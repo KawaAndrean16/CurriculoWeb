@@ -28,12 +28,10 @@ header nav a {
   font-weight: bold;
   padding: 6px 12px;
   border-radius: 6px;
-  transition: 0.3s;
 }
 
 header nav a:hover {
-  background: #2c3e50;
-  color: #000000;
+  color: #0026ff;
 }
 
 /* Estrutura geral */
