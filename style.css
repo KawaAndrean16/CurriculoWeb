@@ -1,0 +1,91 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000000;
+}
+
+/* Cabeçalho e navegação */
+header {
+  background: #39c0ff;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+header nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  background: #2c3e50;
+  color: #000000;
+}
+
+/* Estrutura geral */
+section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #000000;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #39c0ff;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #0099ff;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* Layout em duas colunas */
+#info-resumo {
+  display: flex;
+  gap: 20px;
+}
+
+#info, #resumo {
+  flex: 1;
+  background: #f5faff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #0099ff;
+  color: #000000;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header nav, #info-resumo {
+    flex-direction: column;
+  }
+}
